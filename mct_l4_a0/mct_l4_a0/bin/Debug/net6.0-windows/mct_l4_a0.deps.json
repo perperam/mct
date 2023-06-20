@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "mct_l4_a0/1.0.0": {
+        "runtime": {
+          "mct_l4_a0.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mct_l4_a0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

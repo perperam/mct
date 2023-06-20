@@ -1,0 +1,19 @@
+﻿<Window x:Class="mct_l4_a0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mct_l4_a0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="bDreieck" Content="Dreieck" Margin="30,20,650,350" Click="bDreieck_Click"/>
+        <Button x:Name="bQuadrat" Content="Quadrat" Margin="30,120,650,250" Click="bQuadrat_Click"/>
+        <Button x:Name="bHaus" Content="Haus" Margin="30,220,650,150" Click="bHaus_Click"/>
+        <Button x:Name="bSinus" Content="Sinus" Margin="30,320,650,50" Click="bSinus_Click"/>
+
+        <Canvas x:Name="myCanvas" Height="NaN" Margin="222,76,51,62" Width="NaN">
+            <Polyline x:Name="poly" Stroke="Green" StrokeThickness="3"></Polyline>
+        </Canvas>
+    </Grid>
+</Window>

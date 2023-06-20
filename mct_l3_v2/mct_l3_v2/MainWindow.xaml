@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Polygon x:Name="myPolygon" Fill="Red" Points="100,100 200,100 200,200 100,200"/>
-        <Polygon x:Name="myArrow" Fill="Yellow" Points="300,100 300,150 400,150 400,180 450,125 400,70 400,100"/>
+        <Polygon x:Name="myPolygon" Fill="Red" Points="100,100 200,100 200,200 100,200" Stroke="Black"/>
+        <Polygon x:Name="myArrow" Fill="Yellow" Points="300,100 300,150 400,150 400,180 450,125 400,70 400,100" Stroke="Black"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="539,101,0,0" VerticalAlignment="Top" Height="62" Width="103" Click="Button_Click"/>
 
     </Grid>

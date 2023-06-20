@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robin\\Git-Projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj": {}
+    "C:\\Users\\robin\\git-projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robin\\Git-Projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj": {
+    "C:\\Users\\robin\\git-projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robin\\Git-Projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj",
+        "projectUniqueName": "C:\\Users\\robin\\git-projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj",
         "projectName": "mct_l3_v2",
-        "projectPath": "C:\\Users\\robin\\Git-Projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj",
+        "projectPath": "C:\\Users\\robin\\git-projects\\mct\\mct_l3_v2\\mct_l3_v2\\mct_l3_v2.csproj",
         "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robin\\Git-Projects\\mct\\mct_l3_v2\\mct_l3_v2\\obj\\",
+        "outputPath": "C:\\Users\\robin\\git-projects\\mct\\mct_l3_v2\\mct_l3_v2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
