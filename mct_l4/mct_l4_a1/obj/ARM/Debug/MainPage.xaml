@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="mct_l4_a1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mct_l4_a1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    RequestedTheme="Light"
+    Width="1280" Height="720"
+    >
+
+    <Grid>
+        <Canvas x:ConnectionId='2' x:Name="Graph" Width="960" Height="500" Margin="0,170,0,0">
+            <!--X-Achse-->
+            <Line X1="0" Y1="250" X2="960" Y2="250" StrokeThickness="3" Stroke="Black"/>
+            <!--X-Teilstriche-->
+            <Line X1="480" Y1="245" X2="480" Y2="255" StrokeThickness="3" Stroke="Black"/>
+            <Line X1="960" Y1="255" X2="960" Y2="255" StrokeThickness="3" Stroke="Black"/>
+            <TextBlock x:ConnectionId='7' x:Name="Tmax" Text="4ms" Margin="960,240,0,0" FontSize="20"/>
+            <!--Y-Achse-->
+            <Line X1="0" Y1="0" X2="0" Y2="500" StrokeThickness="3" Stroke="Black"/>
+            <!--Y-Teilstriche-->
+            <Line X1="0" Y1="0" X2="20" Y2="0" StrokeThickness="3" Stroke="Black"/>
+            <Line X1="0" Y1="500" X2="20" Y2="500" StrokeThickness="3" Stroke="Black"/>
+            <Line X1="0" Y1="125" X2="10" Y2="125" StrokeThickness="3" Stroke="Black"/>
+            <Line X1="0" Y1="375" X2="10" Y2="375" StrokeThickness="3" Stroke="Black"/>
+            <TextBlock x:ConnectionId='8' x:Name="Umax" Text="1,65V" Margin="20,-20,0,0" FontSize="20"/>
+            <TextBlock x:ConnectionId='9' x:Name="Umin" Text="-1,65V" Margin="20,490,0,0" FontSize="20"/>
+
+            <Polyline x:ConnectionId='10' x:Name="poly" StrokeThickness="3" Stroke="Green"/>
+
+            <Slider x:ConnectionId='11' x:Name="TrigLvl" Width="70" Orientation="Vertical" HorizontalAlignment="Left" Height="500" Canvas.Left="-50" VerticalAlignment="Center" Maximum="1.65" Minimum="-1.65"                              TickFrequency="0.01">
+            </Slider>
+        </Canvas>
+
+        <TextBlock x:ConnectionId='3' x:Name="Min" Text="XV" Margin="1160,80,0,0" FontSize="20"/>
+        <TextBlock x:ConnectionId='4' x:Name="Max" Text="XV" Margin="1160,110,0,0" FontSize="20"/>
+        <TextBlock x:ConnectionId='5' x:Name="Mean" Text="XV" Margin="1160,140,0,0" FontSize="20"/>
+        <TextBlock x:ConnectionId='6' x:Name="Eff" Text="XV" Margin="1160,170,0,0" FontSize="20"/>
+    </Grid>
+</Page>
+

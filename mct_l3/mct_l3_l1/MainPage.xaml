@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="mct_l3_l1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mct_l3_l1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Width="1280"
+    Height="720">
+
+    <Grid>
+        <Button Content="Start" Margin="814,317,0,0" VerticalAlignment="Top" Height="160" Width="200" Click="Button_Start"/>
+        <Button Content="Stop" Margin="1068,317,0,0" VerticalAlignment="Top" Height="160" Width="200" Click="Button_Stop"/>
+        <Button Content="Copy" Margin="814,101,0,0" VerticalAlignment="Top" Height="160" Width="454" Click="copyIO"/>
+        
+        <RadioButton x:Name="Radio0" Content="A_ist_B_invertiert" Margin="300,100,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Radio1" Content="A_ist_B_ohne_4_LSB" Margin="300,150,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Radio2" Content="A ist B um zwei nach links" Margin="300,200,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Radio3" Content="S7 und S6 auf D1 und D0, D2 bis D7 sind aus" Margin="300,250,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="TextBox0" HorizontalAlignment="Left" Margin="189,400,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="69" Width="263" />
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="189,500,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="69" Width="263" />
+
+    </Grid>
+</Page>
